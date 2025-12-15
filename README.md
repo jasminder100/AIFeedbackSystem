@@ -1,4 +1,38 @@
-# AI Feedback System
+# Task 1 - Rating Predictions via Prompting
+
+This project focuses on predicting **star ratings (1 to 5)** for Yelp reviews using prompt engineering with a Large Language Model (LLM). Instead of training a machine learning model, the approach relies on well-designed prompts to analyze review text and infer the correct rating. The output is always returned in a structured JSON format with a short explanation.
+
+# Objective
+1) Analyze customer review text
+2) Predict the most appropriate star rating (1–5)
+3) Return results in a clean, machine-readable JSON format
+4) Compare different prompting strategies and evaluate their performance
+
+# Approach
+1) Prompt-Based Rating Prediction
+2) A Large Language Model (LLM) is used to understand the sentiment and intent of each review.
+3) The model is guided using carefully designed prompts rather than traditional training.
+
+# Evaluation Criteria
+Each prompting approach was evaluated using the same dataset based on:
+
+1) Accuracy
+Comparison between actual ratings and predicted ratings
+
+3) JSON Validity
+Percentage of responses that strictly follow the required JSON format
+
+5) Consistency
+Stability of predictions and explanations across similar reviews
+
+# Conclusion
+
+This project demonstrates how Large Language Models can be effectively used for rating prediction through prompt engineering, without relying on traditional model training. By experimenting with multiple prompt designs, it becomes clear that well-structured and constrained prompts lead to more accurate, consistent, and reliable results. The comparison between different prompting strategies highlights the importance of clear instructions and output formatting when working with LLMs. Overall, this approach shows that prompt engineering can be a practical and efficient solution for text classification tasks when combined with proper evaluation and validation.
+
+
+
+
+# Task 2 -  AI Feedback System
 This project is a web-based feedback management system that allows users to submit ratings and reviews while enabling administrators to securely review, analyze, and act on that feedback using AI-generated insights.
 
 The application is built with two dashboards:
